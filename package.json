@@ -1,0 +1,34 @@
+{
+  "name": "git-fix-case",
+  "version": "1.0.0",
+  "description": "Make filenames on your filesystem match the case expected by git",
+  "main": "git-fix-case.js",
+  "bin": {
+    "git-fix-case": "./git-fix-case.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "case-sensitivity",
+    "macOS",
+    "windows"
+  ],
+  "author": "Beau Gunderson <beau@beaugunderson.com> (https://beaugunderson.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.zip": "^4.2.0",
+    "simple-git": "^1.85.0",
+    "true-case-path": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beaugunderson/git-fix-case.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beaugunderson/git-fix-case/issues"
+  },
+  "homepage": "https://github.com/beaugunderson/git-fix-case#readme"
+}
